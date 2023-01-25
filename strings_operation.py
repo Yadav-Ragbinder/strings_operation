@@ -1,4 +1,6 @@
 // changes by developer Ragbinder Yadav
+
+
 x = "Pratibha Singh"
 #lower case
 print (x.lower())
@@ -30,6 +32,8 @@ print (x1.replace("i","k"))
 y = " Kohli"
 print (x + y)
 
+// End of commit changes by Developer Ragbinder Yadav
+-----------------------------------
 // changes by developer Pratibha kohli
 
 // variables in string
