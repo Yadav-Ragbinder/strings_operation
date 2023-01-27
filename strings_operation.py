@@ -4,34 +4,39 @@
 x = "Hello World"
 #lower case
 print (x.lower())
+# hello world
 -----------------------------------
 #upper case
 print (x.upper())
+# HELLO WORLD
 -----------------------------------
 #range 
 print (x[:6])
+# Hello (it include space)
 print (x[:5])
-
+# Hello
 -----------------------------------
 #index
 print (x[4])
-print (x.index("b"))
-
+# o
+print (x.index("r"))
+# 8
 -----------------------------------
 #replace
-print (x.replace("Pratibha","Kohli"))
-print (x.replace("i","k"))
-
+print (x.replace("World","Kohli"))
+# Hello Kohli
+print (x.replace("e","k"))
+# Hkllo World
 -----------------------------------
 #find
 x1 = ( x + "i")
-print (x1.replace("i","k"))
-
+print (x1.replace("o","k"))
+# Hellk Wkrld
 -----------------------------------
 #add two str
 y = " Kohli"
 print (x + y)
-
+# Hello World Kohli
 // End of commit changes by Developer Ragbinder Yadav
 -----------------------------------
 // changes by developer Pratibha kohli
